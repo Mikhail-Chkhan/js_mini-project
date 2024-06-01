@@ -1,0 +1,224 @@
+/*---------------!*start style for index*!-------------------------*/
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.user_box {
+    width: 400px;
+    height: 120px;
+    border-radius: 3px;
+    border: 2px solid #ee8143;
+    margin: 7px;
+    background-color: #6e856e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_box > p {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin: 0 0 7px;
+}
+
+.button_user {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: #ee8143;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------!*end style for index*!-------------------------*/
+
+
+/*---------------!*start style for user_details*!-------------------------*/
+.user_detail {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#id_name, #id_contact, #id_address, #id_work {
+    width: 90%;
+    border-radius: 3px;
+    border: 2px solid #ee8143;
+    margin: 7px;
+    background-color: #6e856e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_user_posts {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: #ee8143;
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_detail > div > p {
+    /*font-weight:bold;*/
+    font-size: 20px;
+    color: white;
+    margin: 0 0 7px;
+}
+
+.user_detail > div > h2 {
+    font-size: 28px;
+    color: #f6610e;
+    margin: 0 0 10px;
+}
+
+.user_detail > div > h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ee8143;
+    margin: 0 0 8px;
+}
+/*---------------!*end style for user_details*!-------------------------*/
+
+/*---------------!*start style for modal*!-------------------------*/
+
+.modal_window {
+    position: fixed;
+    z-index: 1;
+    left: auto;
+    top: auto;
+    width: 50%;
+    height: 70%;
+    overflow: auto;
+    background-color: #e7ded8;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid #ee8143;
+}
+
+.box_title {
+    width: 16%;
+    border-radius: 3px;
+    margin: 5px;
+    padding-left: 10px;
+    border: 2px solid #ee8143;
+    background-color: #6e856e;
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.modal_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding-left: 10px;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+#close_modal {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+#modal_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*---------------!*end style for modal*!-------------------------*/
+
+/*---------------!*start style for post_details*!-------------------------*/
+.main_post {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title_post, .text_post {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ee8143;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #6e856e;
+    color: #fffefe;
+}
+
+#comments_post {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid #ee8143;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #6e856e;
+    color: #fffefe;
+}
+
+.comment_box {
+    width: 20%;
+    background-color: #be9c7b;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#title_post>h2 {
+    margin: 5px;
+}
+.comment_box>p {
+    margin: 4px;
+}
+/*---------------!*end style for post_details*!-------------------------*/
