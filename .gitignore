@@ -1,0 +1,5 @@
+/.idea/*
+/.idea/**
+/js_mini-project.iml
+/*.iml/
+/test.html
